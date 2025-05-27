@@ -2,7 +2,7 @@ import { Slot, useRouter, useSegments } from 'expo-router';
 import { useEffect } from 'react';
 import { ActivityIndicator, View } from 'react-native';
 import { AuthProvider, useAuth } from 'C:/Users/Cooper/OneDrive/Documents/injury-prevention-app/app/context/AuthContext.js';
-//Absolutely pointless comment.
+//Absolutely pointless comment online.
 function RootLayoutNav() {
   const { user, isLoading } = useAuth();
   const segments = useSegments();
